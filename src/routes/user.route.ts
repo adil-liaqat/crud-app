@@ -198,7 +198,7 @@ router.get('/', asyncHandler(userController.getUsers));
  * @swagger
  * /users/{id}:
  *   get:
- *     description: Get all users
+ *     description: Get user by id
  *     parameters:
  *     - $ref: '#/components/parameters/id'
  *     tags:
@@ -222,7 +222,7 @@ router.get('/:id(\\d+)/', asyncHandler(userController.getUserById));
  * @swagger
  * /users/{id}:
  *   delete:
- *     description: Get all users
+ *     description: Delete a user
  *     parameters:
  *     - $ref: '#/components/parameters/id'
  *     tags:
