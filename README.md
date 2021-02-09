@@ -12,7 +12,8 @@ Clone the repository
 npm install 
 ```
 
-Using Postgres for this example, but will work with mysql, just change the dialect in `src/config/database.ts`
+Using Postgres for this example, but will work with mysql, just change the dialect in `src/config/database.ts` and run `npm install --save mysql2`
+
 
 Build to `./dist`
 ```
