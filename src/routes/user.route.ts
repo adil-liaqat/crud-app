@@ -108,7 +108,7 @@ router.post('/', validatorMiddleware(userCreation), asyncHandler(userController.
  * @swagger
  * /users/{id}:
  *   put:
- *     description: Create a user
+ *     description: Update a user
  *     tags:
  *      - User
  *     parameters:
